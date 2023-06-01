@@ -8,7 +8,7 @@ export default function Header() {
   const router=useRouter()
   const currentRoute=router.pathname
   return (
-    <header className='flex flex-col space-x-1 h-[20vh]  border-solid border-2'>
+    <header className='flex bg-white flex-col space-x-1 h-[20vh] w-full border-solid border-2 '>
       <div className='flex h-[5vh] bg-black w-full justify-between pl-8 items-center'   >
         <div className=' flex flex-row space-x-2'>
           <Link  href="https://facebook.com"> 
@@ -48,7 +48,7 @@ export default function Header() {
                   : " text-[#3E3D3D] hover:text-[#189643] "}> 
          Activités
         </Link>
-        <Link   href="/activites"
+        <Link   href="/apropos"
               className={
                  currentRoute === "/activites"
                   ? "text-[#189643] "
