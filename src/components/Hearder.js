@@ -56,9 +56,9 @@ export default function Header() {
           Apropos
         </Link>
       </div>
-        <div className='flex-row items-center justify-between space-x-2 pr-8' >
-            <button className='border-solid border border-[#189643] text-[#189643] p-2 rounded-xl' > connexion</button>
-          <button className='bg-[#189643] border border-[#189643]  text-white p-2 rounded-xl' >Inscription</button>
+        <div className='flex-row items-center justify-between space-x-10 pr-8' >
+            <button className='border-solid border border-[#189643] text-[#189643] p-2  pr-4 pl-4 rounded-full' > connexion</button>
+          <button className='bg-[#189643] border border-[#189643]  text-white p-2 pr-4 pl-4 rounded-full' >Inscription</button>
         </div>
       </div>
       
