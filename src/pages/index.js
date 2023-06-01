@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
          <Layout>
-          <section className="flex flex-col w-full  h-[100vh] bg-[url('/agrobibi/hero.png')] bg-center bg-no-repeat bg-cover" >
+          <section className="flex flex-col w-full  h-[80vh] bg-[url('/agrobibi/hero.png')] bg-center bg-no-repeat bg-cover" >
             <div class="w-full h-full flex flex-col  justify-center items-center backdrop-brightness-50">
                   <span className="flex flex-col w-2/3 text-center border-t border-b-2 p-3 pt-8 pb-8 mb-10" >
                     <h1 className='text-white text-4xl font-bold pb-4'>La technologie pour soutenir l’agriculutre !</h1> 
@@ -20,7 +20,7 @@ export default function Home() {
             </div>
           </section>
 
-          <section className='flex flex-row w-full h-[80vh] justify-between mt-20 pl-8 pr-8'>
+          <section className='flex flex-row w-full h-[80vh] justify-between  pl-8 pr-8 items-center' >
             <div className='flex flex-row w-full justify-between'>
               <div>
                 <h1 className='text-[#189643] font-bold text-4xl pb-3 pt-2'>Ce que nous faisons </h1>
@@ -36,7 +36,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
             </div>
             
           </section>
-           <section className=' h-[100vh]'>
+           <section className=' h-[100vh] '>
             <div className="flex flex-col w-full  h-[45vh] bg-[url('/agrobibi/Legumes.png')] bg-center bg-no-repeat bg-cover" >
             <div class="w-full h-full flex flex-col  justify-center items-center backdrop-brightness-50">
                   <span className="flex flex-col w-2/3 text-center border-t border-b-2 p-3 pt-8 pb-8 mb-10" >
@@ -45,7 +45,9 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                   </span> 
             </div>
           </div>
-          <CategoriesContainer/>
+           <div className='pl-8 pr-8'>
+            <CategoriesContainer/>
+           </div>
           
           </section>
            
