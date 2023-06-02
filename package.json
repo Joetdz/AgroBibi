@@ -7,16 +7,16 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "pretty": "next prettier "
+    "pretty": "next prettier ",
+    "prepare": "husky install"
   },
   "dependencies": {
     "autoprefixer": "10.4.14",
     "eslint-config-next": "13.4.4",
     "eslint-config-prettier": "^8.8.0",
-    "husky": "^8.0.3",
-    "lint-staged": "^13.2.2",
     "next": "13.4.4",
     "postcss": "8.4.24",
+    "prettier-plugin-tailwindcss": "^0.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.9.0",
@@ -25,6 +25,12 @@
   "devDependencies": {
     "eslint": "^8.41.0",
     "eslint-plugin-react": "^7.32.2",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2",
     "prettier": "^2.8.8"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix",
+    "*.{js,css,md}": "prettier --write"
   }
 }
