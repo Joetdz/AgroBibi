@@ -9,9 +9,9 @@ import ProductContainer from '@/components/ProductContainer';
 export default function Home() {
   return (
     <Layout>
-      <section className="fle flex h-[80vh]  w-full bg-[url('/agrobibi/hero.png')] bg-cover bg-center bg-no-repeat">
+      <section className="fle flex h-[auto] w-full  bg-[url('/agrobibi/hero.png')] bg-cover bg-center bg-no-repeat md:h-[80vh]">
         <div className="flex h-full w-full flex-col  items-center justify-center bg-black bg-opacity-30 ">
-          <span className="mb-10 flex w-2/3 flex-col p-3 pb-8 pt-8 text-center md:border-b-2 md:border-t">
+          <span className="mb-10 flex flex-col p-3 pt-8 text-center md:w-2/3 md:border-b-2 md:border-t md:pb-8">
             <h1 className=" pb-4 text-4xl font-bold text-white">
               La technologie pour soutenir l’agriculutre !
             </h1>
@@ -21,16 +21,16 @@ export default function Home() {
               agricoles{' '}
             </p>
           </span>
-          <button className=" text  mt-8 w-1/2 rounded-full bg-white  p-3 text-center font-bold text-[#189643] md:w-1/4">
+          <button className=" text mb-10  w-1/2 rounded-full bg-white p-3  text-center font-bold text-[#189643] md:mt-8 md:w-1/4">
             Inscrivez-vous
           </button>
         </div>
       </section>
 
-      <section className="flex h-[100vh] w-full flex-row items-center  justify-between pl-8 pr-8">
+      <section className="flex w-full flex-row items-center justify-between  pl-8 pr-8 md:h-[100vh]">
         <div className="flex w-full flex-col justify-between md:flex-row">
           <div>
-            <h1 className="pb-3 pt-2 text-4xl font-bold text-[#189643]">
+            <h1 className="pb-3 pt-10 text-3xl font-bold text-[#189643] md:text-4xl">
               Ce que nous faisons{' '}
             </h1>
 
@@ -52,7 +52,7 @@ export default function Home() {
             </p>
             <Link
               href="/apropos"
-              className="rounded-full border border-solid border-[#189643] p-2  pl-4 pr-4 text-[#189643]"
+              className=" rounded-full border border-solid border-[#189643] p-2  pl-4 pr-4 text-[#189643]"
             >
               {' '}
               En savoir plus
@@ -68,11 +68,11 @@ export default function Home() {
         </div>
       </section>
 
-      <section className=" h-[100vh] ">
+      <section className=" mt-8 md:h-[100vh]">
         <div className="flex h-[45vh] w-full  flex-col bg-[url('/agrobibi/Legumes.png')] bg-cover bg-center bg-no-repeat">
           <div className="flex h-full w-full flex-col  items-center justify-center bg-black bg-opacity-30 ">
-            <span className="mb-10 flex w-2/3 flex-col border-b-2 border-t p-3 pb-8 pt-8 text-center">
-              <h1 className="pb-4 text-4xl font-bold text-white">
+            <span className="mb-10 flex w-full flex-col border-b-2 border-t p-3 pb-8 pt-8 text-center md:w-2/3">
+              <h1 className="pb-4 text-3xl font-bold text-white md:text-4xl">
                 Commandez les meilleurs produits bio et frais!
               </h1>
               <p className="text-lg font-semibold text-white">
@@ -91,7 +91,7 @@ export default function Home() {
           <ProductContainer />
         </div>
       </section>
-      <section className="b flex h-[100vh] w-full  flex-col  justify-between pl-8  pr-8 md:flex-row md:items-center md:space-x-32 md:pl-16 md:pr-16 ">
+      <section className="b mt-10 flex h-[100vh]  w-full  flex-col justify-between pl-8  pr-8 md:flex-row md:items-center md:space-x-32 md:pl-16 md:pr-16 ">
         <Image
           src="/agrobibi/section3.png"
           width={800}
