@@ -100,7 +100,7 @@ export default function Home() {
         />
         <div className="flex w-full flex-col justify-between   md:flex-row">
           <div>
-            <h1 className="pb-3 pt-2 text-xl font-bold text-[#189643] md:text-4xl">
+            <h1 className="pb-3 pt-2 text-3xl font-bold text-[#189643] md:text-4xl">
               Devenez fournisseur{' '}
             </h1>
             <div className="h-[5px] w-1/4 rounded-full bg-[#189643]"></div>
@@ -110,7 +110,7 @@ export default function Home() {
               height={447}
               className="flex h-[auto] w-1/2 pt-8 md:hidden"
             />
-            <p className="w-full pt-8 text-lg md:pb-8">
+            <p className="w-full pb-8 pt-8 text-lg">
               Le partenariat avec Agrobibi est un excellent moyen pour les
               agriculteurs de la République Démocratique du Congo de
               s&apos;associer à une entreprise innovante et novatrice, qui met à
@@ -139,11 +139,11 @@ export default function Home() {
       <section className="flex h-[100vh] w-full flex-row items-center  justify-between pl-8 pr-16 pr-8  md:pl-16">
         <div className="flex w-full flex-row justify-between">
           <div>
-            <h1 className="pb-3 pt-2 text-4xl font-bold text-[#189643]">
+            <h1 className="pb-3 pt-2 text-3xl font-bold text-[#189643] md:text-4xl">
               Formations & Conférences{' '}
             </h1>
             <div className="h-[5px] w-1/4 rounded-full bg-[#189643]"></div>
-            <p className="w-3/4 pb-8 pt-8 text-lg">
+            <p className="w-full pb-8 pt-8 text-lg md:w-3/4">
               Nos formations et conférences sont conçues pour fournir des
               informations sur les dernières technologies et outils agricoles,
               les stratégies concurrentielles et les bonnes pratiques agricoles.

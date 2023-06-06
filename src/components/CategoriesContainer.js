@@ -7,7 +7,7 @@ function CategoriesContainer() {
       <div className="w-2/3">
         <SearchBar />
       </div>
-      <div className="  flex  w-full flex-row space-x-4 overflow-y-auto pt-8">
+      <div className="  flex  w-full flex-row space-x-4   overflow-y-auto pt-8">
         <CardCategory title="legumes" bg="/agrobibi/legumes.png" />
         <CardCategory title="legume" bg="/agrobibi/epices.png" />
         <CardCategory title="legume" bg="/agrobibi/fruits.png" />
