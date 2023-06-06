@@ -59,7 +59,7 @@ export default function Header() {
           <Link
             href="/shop"
             className={
-              currentRoute === '/activites'
+              currentRoute === '/shop'
                 ? 'text-[#189643] '
                 : ' text-[#3E3D3D] hover:text-[#189643] '
             }
@@ -77,9 +77,9 @@ export default function Header() {
             Activités
           </Link>
           <Link
-            href="/activites"
+            href="/apropos"
             className={
-              currentRoute === '/activites'
+              currentRoute === '/apropos'
                 ? 'text-[#189643] '
                 : ' text-[#3E3D3D] hover:text-[#189643] '
             }
@@ -135,78 +135,46 @@ export default function Header() {
                   href="/"
                   className={
                     currentRoute === '/'
-                      ? 'text-[#A37D45] '
-                      : 'py-4 text-[#3E3D3D] hover:text-[#A37D45]'
+                      ? 'text-[#189643] '
+                      : ' py-4 text-[#3E3D3D] hover:text-[#189643] '
                   }
                   onClick={CloseMenu}
                 >
                   <li>Accueil</li>
                 </Link>
                 <Link
+                  href="/shop"
+                  className={
+                    currentRoute === '/activites'
+                      ? 'text-[#189643] '
+                      : ' py-4 text-[#3E3D3D] hover:text-[#189643] '
+                  }
+                  onClick={CloseMenu}
+                  g
+                >
+                  <li>Shop</li>
+                </Link>
+                <Link
+                  href="/activites"
+                  className={
+                    currentRoute === '/activites'
+                      ? 'text-[#189643] '
+                      : 'py-4 text-[#3E3D3D] hover:text-[#189643] '
+                  }
+                  onClick={CloseMenu}
+                >
+                  <li>Activités</li>
+                </Link>
+                <Link
                   href="/apropos"
                   className={
                     currentRoute === '/apropos'
-                      ? 'text-[#A37D45] '
-                      : 'py-4 text-[#3E3D3D] hover:text-[#A37D45] '
+                      ? 'text-[#189643] '
+                      : 'py-4 text-[#3E3D3D] hover:text-[#189643] '
                   }
                   onClick={CloseMenu}
                 >
-                  <li>À propos</li>
-                </Link>
-                <Link
-                  href="/services"
-                  className={
-                    currentRoute === '/services'
-                      ? 'text-[#A37D45] '
-                      : 'py-4 text-[#3E3D3D] hover:text-[#A37D45] '
-                  }
-                  onClick={CloseMenu}
-                >
-                  <li>Services</li>
-                </Link>
-                <Link
-                  href="/formations"
-                  className={
-                    currentRoute === '/formations'
-                      ? 'text-[#A37D45] '
-                      : 'py-4 text-[#3E3D3D] hover:text-[#A37D45] '
-                  }
-                  onClick={CloseMenu}
-                >
-                  <li>Formations</li>
-                </Link>
-                <Link
-                  href="/offres"
-                  className={
-                    currentRoute === '/offres'
-                      ? 'text-[#A37D45] '
-                      : 'py-4 text-[#3E3D3D] hover:text-[#A37D45] '
-                  }
-                  onClick={CloseMenu}
-                >
-                  <li>Offres</li>
-                </Link>
-                <Link
-                  href="/portfolio"
-                  className={
-                    currentRoute === '/portfolio'
-                      ? 'text-[#A37D45] '
-                      : 'py-4 text-[#3E3D3D] hover:text-[#A37D45] '
-                  }
-                  onClick={CloseMenu}
-                >
-                  <li>Portfolio</li>
-                </Link>
-                <Link
-                  href="/blog"
-                  className={
-                    currentRoute === '/blog'
-                      ? 'text-[#A37D45] '
-                      : 'py-4 text-[#3E3D3D] hover:text-[#A37D45] '
-                  }
-                  onClick={CloseMenu}
-                >
-                  <li>Blog</li>
+                  <li>Apropos</li>
                 </Link>
               </ul>
               <div className="ml-[-10px] mt-6 w-full"></div>
