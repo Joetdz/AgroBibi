@@ -50,7 +50,7 @@ export default function Home() {
             </p>
             <button className="rounded-full border border-solid border-[#189643] p-2  pl-4 pr-4 text-[#189643]">
               {' '}
-              connexion
+              En savoir plus
             </button>
           </div>
 
@@ -121,7 +121,7 @@ export default function Home() {
             </p>
             <button className="rounded-full border border-solid border-[#189643] p-2  pl-4 pr-4 text-[#189643]">
               {' '}
-              connexion
+              En savoir plus
             </button>
           </div>
         </div>
@@ -144,7 +144,7 @@ export default function Home() {
             </p>
             <button className="rounded-full border border-solid border-[#189643] p-2  pl-4 pr-4 text-[#189643]">
               {' '}
-              connexion
+              En savoir plus
             </button>
           </div>
 
