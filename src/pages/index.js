@@ -9,7 +9,7 @@ import ProductContainer from '@/components/ProductContainer';
 export default function Home() {
   return (
     <Layout>
-      <section className="fle flex h-[auto] w-full  bg-[url('/agrobibi/hero.png')] bg-cover bg-center bg-no-repeat md:h-[80vh]">
+      <section className="fle flex  h-[80vh]  w-full bg-[url('/agrobibi/hero.png')] bg-cover bg-center bg-no-repeat">
         <div className="flex h-full w-full flex-col  items-center justify-center bg-black bg-opacity-30 ">
           <span className="mb-10 flex flex-col p-3 pt-8 text-center md:w-2/3 md:border-b-2 md:border-t md:pb-8">
             <h1 className=" pb-4 text-4xl font-bold text-white">
@@ -91,7 +91,7 @@ export default function Home() {
           <ProductContainer />
         </div>
       </section>
-      <section className="b mt-10 flex h-[100vh]  w-full  flex-col justify-between pl-8  pr-8 md:flex-row md:items-center md:space-x-32 md:pl-16 md:pr-16 ">
+      <section className=" mb-10 mt-10 flex w-full  flex-col  justify-between pl-8 pr-8  md:h-[100vh] md:flex-row md:items-center md:space-x-32 md:pl-16 md:pr-16 ">
         <Image
           src="/agrobibi/section3.png"
           width={800}
@@ -136,7 +136,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="flex h-[100vh] w-full flex-row items-center  justify-between pl-8 pr-16 pr-8  md:pl-16">
+      <section className="mb-10 flex w-full flex-row items-center justify-between  pl-8 pr-16 pr-8 md:h-[100vh]  md:pl-16">
         <div className="flex w-full flex-row justify-between">
           <div>
             <h1 className="pb-3 pt-2 text-3xl font-bold text-[#189643] md:text-4xl">
