@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 function ProductCard() {
   return (
@@ -17,10 +18,12 @@ function ProductCard() {
         Des frais et bio cultivés avec passion
       </p>
       <div className="w-full pl-4 pr-4">
-        <button className=" rounded-full border border-solid border-[#189643] p-2  pl-4 pr-4 text-[#189643] hover:bg-[#189643] hover:text-white  ">
-          {' '}
-          Visitez la Boutique
-        </button>
+        <Link href="/shop/1">
+          <button className=" rounded-full border border-solid border-[#189643] p-2  pl-4 pr-4 text-[#189643] hover:bg-[#189643] hover:text-white  ">
+            {' '}
+            Visitez la Boutique
+          </button>
+        </Link>
       </div>
     </div>
   );

@@ -1,25 +1,47 @@
 export default function Footer() {
   return (
-    <div className="h-[45vh] w-full bg-black">
-      <div className="flex flex-row justify-between pl-16 pr-4 pt-16">
-        <div className="flex flex-col space-y-8">
-          <h2 className="text-xl font-bold text-white">Adresse</h2>
-          <p className="text-white">N° 00 Blvd du 30 juin Kinshasa, Gombe</p>
+    <footer className=" bg-black shadow dark:bg-gray-900">
+      <div className="mx-auto w-full max-w-screen-xl p-4 md:py-8">
+        <div className="sm:flex sm:items-center sm:justify-between">
+          <a href="/" className="mb-4 flex items-center  sm:mb-0">
+            <img
+              src="/agrobibi/agrobibi1.png"
+              className="mr-3 h-[100px] w-[100px]"
+              alt="Flowbite Logo"
+            />
+          </a>
+          <ul className="mb-6 flex flex-wrap items-center text-sm font-medium text-gray-500 dark:text-gray-400 sm:mb-0">
+            <li>
+              <a href="#" className="mr-4 hover:underline md:mr-6 ">
+                About
+              </a>
+            </li>
+            <li>
+              <a href="#" className="mr-4 hover:underline md:mr-6">
+                Privacy Policy
+              </a>
+            </li>
+            <li>
+              <a href="#" className="mr-4 hover:underline md:mr-6 ">
+                Licensing
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:underline">
+                Contact
+              </a>
+            </li>
+          </ul>
         </div>
-        <div className="flex flex-col space-y-8">
-          <h2 className="text-xl font-bold text-white">CONTACTS</h2>
-          <p className="text-white">
-            +243 00000000 +243 000000000 +243 000000000
-          </p>
-        </div>
-        <div className="flex flex-col space-y-8">
-          <h2 className="flex-wrap text-xl font-bold text-white">A PROPOS</h2>
-          <p className="text-white">
-            <p>Le Lorem Ipsum est simplement du faux texte employé </p>
-          </p>
-        </div>
+        <hr className="my-6 border-gray-200 dark:border-gray-700 sm:mx-auto lg:my-8" />
+        <span className="block text-sm text-gray-500 dark:text-gray-400 sm:text-center">
+          © 2023{' '}
+          <a href="https://flowbite.com/" className="hover:underline">
+            AgroBibi™
+          </a>
+          . All Rights Reserved.
+        </span>
       </div>
-      <div className=" mt-4 flex  flex-row items-center justify-center border-t border-solid border-white  text-white"></div>
-    </div>
+    </footer>
   );
 }

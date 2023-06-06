@@ -1,16 +1,15 @@
-import React from 'react'
-
-function CardCategory({bg, title}) {
-    console.log(bg, "gggg");
+function CardCategory({ bg, title }) {
+  console.log(bg, 'gggg');
   return (
-
-    <div className={`w-[200px] h-[200px] rounded-lg  `} style={{ backgroundImage: `url(${bg})`}}>
-         <div class="w-full h-full flex flex-col  justify-center items-center backdrop-brightness-50 rounded-lg">
-            <h1 className="font-bold text-white">{title}</h1>
-         </div>
+    <div
+      className={` flex flex-auto rounded-lg md:h-[200px] md:w-[200px]  `}
+      style={{ backgroundImage: `url(${bg})` }}
+    >
+      <div className="flex h-full w-full flex-col  items-center justify-center rounded-lg md:backdrop-brightness-50">
+        <h1 className="font-bold text-black">{title}</h1>
+      </div>
     </div>
-    
-  )
+  );
 }
 
-export default CardCategory
+export default CardCategory;
