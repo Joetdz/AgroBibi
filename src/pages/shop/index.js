@@ -6,7 +6,7 @@ const shop = () => {
     <Layout>
       <section className=" h-[100vh] ">
         <div className="flex h-[45vh] w-full  flex-col bg-[url('/agrobibi/Legumes.png')] bg-cover bg-center bg-no-repeat">
-          <div className="flex h-full w-full flex-col  items-center justify-center backdrop-brightness-50">
+          <div className="justify-centerbg-black flex h-full w-full  flex-col items-center bg-black bg-opacity-30">
             <span className="mb-10 flex w-2/3 flex-col border-b-2 border-t p-3 pb-8 pt-8 text-center">
               <h1 className="pb-4 text-4xl font-bold text-white">
                 Commandez les meilleurs produits bio et frais!
