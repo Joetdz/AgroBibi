@@ -15,9 +15,6 @@ function CategoriesContainer() {
         <CardCategory title="legume" bg="/agrobibi/transforme.png" />
         <CardCategory title="legume" bg="/agrobibi/legumes.png" />
         <CardCategory title="legume" bg="/agrobibi/transforme.png" />
-        <CardCategory title="legume" bg="/agrobibi/legumes.png" />
-        <CardCategory title="legume" bg="/agrobibi/transforme.png" />
-        <CardCategory title="legume" bg="/agrobibi/legumes.png" />
       </div>
     </div>
   );

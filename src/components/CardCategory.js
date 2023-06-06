@@ -6,7 +6,7 @@ function CardCategory({ bg, title }) {
       style={{ backgroundImage: `url(${bg})` }}
     >
       <div className="flex h-full w-full flex-col  items-center justify-center rounded-lg md:backdrop-brightness-50">
-        <h1 className="font-bold text-black">{title}</h1>
+        <h1 className="font-bold text-white">{title}</h1>
       </div>
     </div>
   );
