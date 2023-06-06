@@ -1,6 +1,7 @@
 import Image from 'next/image';
 
 import Layout from '@/components/layout';
+import Link from 'next/link';
 
 import CategoriesContainer from '@/components/CategoriesContainer';
 import ProductContainer from '@/components/ProductContainer';
@@ -49,10 +50,13 @@ export default function Home() {
               canal de diffusion d’informations destinées aux agriculteurs que
               nous encadrons à Kinshasa, capitale de la RDC.
             </p>
-            <button className="rounded-full border border-solid border-[#189643] p-2  pl-4 pr-4 text-[#189643]">
+            <Link
+              href="/apropos"
+              className="rounded-full border border-solid border-[#189643] p-2  pl-4 pr-4 text-[#189643]"
+            >
               {' '}
               En savoir plus
-            </button>
+            </Link>
           </div>
 
           <Image
@@ -121,10 +125,13 @@ export default function Home() {
               &apos;et des conseils d&apos;experts en matière de production
               alimentaire
             </p>
-            <button className="rounded-full border border-solid border-[#189643] p-2  pl-4 pr-4 text-[#189643]">
+            <Link
+              href="/inscrpition"
+              className="rounded-full border border-solid border-[#189643] p-2  pl-4 pr-4 text-[#189643]"
+            >
               {' '}
               En savoir plus
-            </button>
+            </Link>
           </div>
         </div>
       </section>
@@ -149,10 +156,13 @@ export default function Home() {
               équipe est qualifiée et expérimentée dans tous les domaines
               agricoles.
             </p>
-            <button className="rounded-full border border-solid border-[#189643] p-2  pl-4 pr-4 text-[#189643]">
+            <Link
+              href="/activites"
+              className="rounded-full border border-solid border-[#189643] p-2  pl-4 pr-4 text-[#189643]"
+            >
               {' '}
               En savoir plus
-            </button>
+            </Link>
           </div>
 
           <Image
