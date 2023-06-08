@@ -1,3 +1,4 @@
+import { GrLocation } from 'react-icons/gr';
 function EventCard() {
   return (
     <div className="w-full max-w-sm rounded-lg border border-gray-200 bg-white shadow dark:border-gray-700 dark:bg-gray-800">
@@ -17,8 +18,8 @@ function EventCard() {
         </a>
         <div className="mb-5 mt-2.5 flex items-center">17 mai 2023</div>
         <div className="flex items-center justify-between">
-          <span className="text-xl font-bold text-gray-900 dark:text-white">
-            Kinshasa
+          <span className="justify-betweenspace-x-8 flex  flex-row text-xs font-bold text-gray-900 dark:text-white">
+            <GrLocation /> <h1>Kinshasa</h1>
           </span>
           <button className="rounded-full border border-solid border-[#189643] p-2  pl-4 pr-4 text-[#189643]">
             {' '}
