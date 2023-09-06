@@ -11,7 +11,7 @@ function ProductCard() {
         className="h-1/2 w-full pl-6 pr-6 pt-4"
       />
       <div className="pa flex justify-between pl-4 pr-4">
-        <span className="text-xl font-medium ">Ognois</span>
+        <span className="text-xl font-medium ">Ognons</span>
         <span className="text-xl text-[#189643] ">1000 fc </span>
       </div>
       <p className=" pl-4 pr-4 text-sm">
